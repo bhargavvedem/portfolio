@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Vedem Bhargav Reddy, a Java Full Stack Developer specializing in Spring Boot, Angular, and Scalable Web Applications.">
+    <meta property="og:title" content="Vedem Bhargav Reddy | Java Full Stack Developer">
+    <meta property="og:description" content="View my projects, skills, and experience.">
+    <meta property="og:imgae" content="assets/profile.jpg">
+    <title>Vedem Bhargav Reddy | Java Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">VBR.</a>
+            <nav class="nav" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#education" class="nav__link">Education</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close" aria-label="Close menu">&times;</button>
+            </nav>
+            <div class="header__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon light-icon" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-icon dark-icon" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, I'm <span class="highlight">Vedem Bhargav Reddy</span></h1>
+                    <h2 class="hero__subtitle">Java Full Stack Developer</h2>
+                    <p class="hero__description">
+                        Building scalable and efficient web applications with Java, Spring Boot, and Angular.
+                        <br>Based in Bengaluru, India.
+                    </p>
+                    <div class="hero__btns">
+                        <a href="#projects" class="btn btn--primary">View My Work</a>
+                        <a href="#contact" class="btn btn--secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <div class="hero__blob"></div>
+                    <img src="assets/profile.jpg" alt="Vedem Bhargav Reddy" class="hero__img" width="300" height="400"
+                        loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container about__container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__data">
+                    <p class="about__description">
+                        I am a highly motivated and detail-oriented <strong>Java Full Stack Developer</strong> with 3.5
+                        years of experience in designing, developing, and deploying scalable and efficient web
+                        applications.
+                    </p>
+                    <p class="about__description">
+                        Proficient in Java, Spring Boot, Hibernate, Microservices, and front-end technologies such as
+                        Angular, HTML, CSS, JavaScript, and TypeScript. I have experience working with cloud platforms
+                        like Microsoft Azure and have contributed to critical projects involving supply chain
+                        optimization and AI-driven applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__container grid">
+                    <!-- Skills Group 1 -->
+                    <div class="skills__content">
+                        <h3 class="skills__title">Languages & Frontend</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Java</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 90%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">JavaScript / TS</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 85%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Angular</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 85%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Python</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 70%;"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Group 2 -->
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend & Databases</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Spring Boot</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 90%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Microservices</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 80%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">PostgreSQL / MySQL</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 80%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">FastAPI</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 60%;"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Group 3 -->
+                    <div class="skills__content">
+                        <h3 class="skills__title">Tools & Cloud</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Git</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 90%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Microsoft Azure</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 75%;"></span></div>
+                                </div>
+                                <div class="skills__data">
+                                    <h4 class="skills__name">Machine Learning</h4>
+                                    <div class="skills__bar"><span class="skills__percentage"
+                                            style="width: 60%;"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container about__container">
+                <h2 class="section__title">Experience</h2>
+                <div class="experience__container">
+
+                    <div class="experience__card">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Developer</h3>
+                            <span class="experience__company">Tata Consultancy Services - Bangalore, India</span>
+                            <span class="experience__date">July 2022 – Present</span>
+                        </div>
+                        <ul class="experience__list">
+                            <li>Developed responsive web applications and reusable UI components using Angular.</li>
+                            <li>Built and maintained server-side logic with Spring Boot REST APIs.</li>
+                            <li>Implemented secure authentication and authorization features.</li>
+                            <li>Designed and optimized database schemas, performing data modelling, normalization, and
+                                denormalization.</li>
+                            <li>Configured and maintained CI/CD pipelines and deployed applications to Microsoft Azure.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="experience__card">
+                        <div class="experience__header">
+                            <h3 class="experience__role">Intern</h3>
+                            <span class="experience__company">Tata Consultancy Services - Bangalore, India</span>
+                            <span class="experience__date">Feb 2022 – Apr 2022</span>
+                        </div>
+                        <ul class="experience__list">
+                            <li>Developed a reusable Angular charting library using C3 Charts and Apache ECharts.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container__large">
+                <h2 class="section__title">Projects</h2>
+                <div class="projects__container grid">
+
+                    <!-- Project 1 -->
+                    <article class="project__card" data-id="1">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">SCOT</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">SCOT (Supply Chain Control Tower)</h3>
+                            <p class="project__description">A centralized platform for real-time monitoring and control
+                                over supply chain operations.</p>
+                            <div class="project__tags">
+                                <span>Angular</span><span>Spring Boot</span><span>Microservices</span>
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project__card" data-id="2">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">Cont AI</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Cont AI</h3>
+                            <p class="project__description">Visualization and prioritization of inbound warehouse truck
+                                activities with ML delay prediction.</p>
+                            <div class="project__tags">
+                                <span>OpenLayers</span><span>Angular</span><span>Spring Boot</span>
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project__card" data-id="3">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">Dock Management</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Dock Management</h3>
+                            <p class="project__description">AI-driven application for license plate recognition and
+                                real-time dock scheduling.</p>
+                            <div class="project__tags">
+                                <span>Angular</span><span>Spring Boot</span><span>Visison AI</span>
+                                <!-- <span>WebSockets</span> -->
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <!-- Placeholder Projects to fill grid to 6 -->
+                    <!-- <article class="project__card" data-id="4">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">Portfolio V1</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Personal Portfolio</h3>
+                            <p class="project__description">A responsive portfolio website built with vanilla HTML, CSS,
+                                and JavaScript.</p>
+                            <div class="project__tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <article class="project__card" data-id="5">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">E-Commerce API</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">E-Commerce REST API</h3>
+                            <p class="project__description">A scalable backend API for an e-commerce platform with
+                                payment gateway integration.</p>
+                            <div class="project__tags">
+                                <span>Java</span><span>Spring Boot</span><span>MySQL</span>
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <article class="project__card" data-id="6">
+                        <div class="project__img-box">
+                            <div class="project__placeholder-img">Task Tracker</div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Task Tracker App</h3>
+                            <p class="project__description">A productivity application for managing daily tasks and
+                                sprints.</p>
+                            <div class="project__tags">
+                                <span>Angular</span><span>Firebase</span><span>TypeScript</span>
+                            </div>
+                            <button class="btn btn--sm btn--outline project__modal-btn">View Details</button>
+                        </div>
+                    </article> -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container about__container">
+                <h2 class="section__title">Education & Certifications</h2>
+                <div class="education__grid">
+                    <div class="education__card">
+                        <h3 class="education__degree">B.Tech in Computer Science</h3>
+                        <p class="education__school">VIT University, Amaravati</p>
+                        <p class="education__year">2022 | CGPA: 8.77</p>
+                    </div>
+                    <div class="education__card">
+                        <h3 class="education__degree">Intermediate</h3>
+                        <p class="education__school">NRI Junior College</p>
+                        <p class="education__year">2018 | 97%</p>
+                    </div>
+                    <div class="education__card">
+                        <h3 class="education__degree">SSC</h3>
+                        <p class="education__school">Keshava Reddy Concept School</p>
+                        <p class="education__year">2016 | 98%</p>
+                    </div>
+                </div>
+
+                <div class="certifications__box">
+                    <h3 class="certifications__title">Certifications & Achievements</h3>
+                    <ul class="certifications__list">
+                        <li>NASSCOM certified: Artificial Intelligence Foundations</li>
+                        <li>Successfully cleared the IP-safe process for SCOT (Patents/Approvals)</li>
+                        <li>Awarded in Tata Innovista as a prime contributor to Cont AI ("Cutting Edge Technologies")
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container contact__container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="contact__icon">✉</i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">vedembhargav@gmail.com</span>
+                            <a href="https://mail.google.com" target="_blank" class="contact__button">Write me <span
+                                    class="contact__arrow">→</span></a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="contact__icon">📱</i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+91 8333839884</span>
+                        </div>
+                        <div class="contact__card">
+                            <i class="contact__icon">💼</i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="contact__card-data">linkedin.com/in/vedem-bhargav-reddy</span>
+                            <a href="https://www.linkedin.com/in/vedem-bhargav-reddy-66547820b/" target="_blank"
+                                rel="noreferrer" class="contact__button">Connect <span
+                                    class="contact__arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <h1 class="footer__title">Vedem Bhargav Reddy</h1>
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/vedem-bhargav-reddy-66547820b/" class="footer__social-link"
+                    target="_blank" aria-label="LinkedIn">
+                    LinkedIn
+                </a>
+            </div>
+            <span class="footer__copy">&#169; 2024 Vedem Bhargav Reddy. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Project Modals handled by JS -->
+    <div class="modal" id="project-modal" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-close></div>
+        <div class="modal__container" role="dialog" aria-modal="true">
+            <button class="modal__close" aria-label="Close modal" data-close>&times;</button>
+            <div class="modal__content" id="modal-content">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden data for projects to be used by JS -->
+    <script id="projects-data" type="application/json">
+        [
+            {
+                "id": 1,
+                "title": "SCOT (Supply Chain Control Tower)",
+                "img": "SCOT",
+                "desc": "A centralized platform that offers real-time monitoring, visibility, and control over supply chain operations. Enables optimization and rapid response by acting as the nerve center of the supply chain.",
+                "tech": ["Angular", "Spring Boot", "Microservices"],
+                "details": "Contributions: Integrated with ERP, WMS, and TMS systems. Deployed SCOT in production environments."
+            },
+            {
+                "id": 2,
+                "title": "Cont AI",
+                "img": "Cont AI",
+                "desc": "Provides visualization and prioritization of inbound warehouse truck activities. Includes a Machine Learning model for delay prediction without using external APIs. Offers PO visibility on OpenLayers maps across various logistics nodes (ships, trucks, ports, warehouses), with what-if simulations and hot receipt prioritization.",
+                "tech": ["Machine Learning", "OpenLayers", "Angular", "Spring Boot", "Python"],
+                "details": "Contributions: Developed reusable charting library, Designed real-time data models and analytics structures."
+            },
+            {
+                "id": 3,
+                "title": "Dock Management",
+                "img": "Dock Mgmt",
+                "desc": "AI-driven application for license plate recognition at warehouse entry. Utilizes WebSockets to trigger events to WMS when truck enters, enabling real-time dock scheduling.",
+                "tech": ["AI", "WebSockets", "Angular", "Spring Boot"],
+                "details": "Contributions: Developed APIs for system inter-operability."
+            },
+             {
+                "id": 4,
+                "title": "Personal Portfolio",
+                "img": "Portfolio",
+                "desc": "A responsive portfolio website built with vanilla HTML, CSS, and JavaScript. Features a dark mode toggle, responsive design, and accessible components.",
+                "tech": ["HTML5", "CSS3", "JavaScript"],
+                "details": "Demonstrates semantic HTML, BEM CSS architecture, and progressive enhancement."
+            },
+            {
+                "id": 5,
+                "title": "E-Commerce REST API",
+                "img": "API",
+                "desc": "A scalable backend service for an online store. Handles user authentication, product catalog, cart management, and order processing.",
+                "tech": ["Java", "Spring Boot", "JPA", "MySQL"],
+                "details": "Focus on clean architecture, DTO pattern, and secure API endpoints."
+            },
+            {
+                "id": 6,
+                "title": "Task Tracker App",
+                "img": "Tracker",
+                "desc": "A kanban-style task management application. Users can create, move, and delete tasks across different stages of development.",
+                "tech": ["Angular", "TypeScript", "Firebase"],
+                "details": "Real-time updates using Firebase Firestore and reactive forms in Angular."
+            }
+        ]
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
