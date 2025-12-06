@@ -1,0 +1,181 @@
+{
+    "hero": {
+        "title": "Hi, I'm <span class=\"highlight\">Vedem Bhargav Reddy</span>",
+        "subtitle": "Java Full Stack Developer",
+        "description": "Building scalable and efficient web applications with Java, Spring Boot, and Angular.<br>Based in Bengaluru, India.",
+        "profileImage": "assets/profile.jpg",
+        "buttons": [
+            {
+                "text": "View My Work",
+                "link": "#projects",
+                "class": "btn--primary"
+            },
+            {
+                "text": "Contact Me",
+                "link": "#contact",
+                "class": "btn--secondary"
+            }
+        ]
+    },
+    "about": {
+        "title": "About Me",
+        "paragraphs": [
+            "I am a highly motivated and detail-oriented <strong>Java Full Stack Developer</strong> with 3.5 years of experience in designing, developing, and deploying scalable and efficient web applications.",
+            "Proficient in Java, Spring Boot, Hibernate, Microservices, and front-end technologies such as Angular, HTML, CSS, JavaScript, and TypeScript. I have experience working with cloud platforms like Microsoft Azure and have contributed to critical projects involving supply chain optimization and AI-driven applications."
+        ]
+    },
+    "skills": [
+        {
+            "category": "Languages & Frontend",
+            "items": [
+                {
+                    "name": "Java",
+                    "percentage": "90%"
+                },
+                {
+                    "name": "JavaScript / TS",
+                    "percentage": "85%"
+                },
+                {
+                    "name": "Angular",
+                    "percentage": "85%"
+                },
+                {
+                    "name": "Python",
+                    "percentage": "70%"
+                }
+            ]
+        },
+        {
+            "category": "Backend & Databases",
+            "items": [
+                {
+                    "name": "Spring Boot",
+                    "percentage": "90%"
+                },
+                {
+                    "name": "Microservices",
+                    "percentage": "80%"
+                },
+                {
+                    "name": "PostgreSQL / MySQL",
+                    "percentage": "80%"
+                },
+                {
+                    "name": "FastAPI",
+                    "percentage": "60%"
+                }
+            ]
+        },
+        {
+            "category": "Tools & Cloud",
+            "items": [
+                {
+                    "name": "Git",
+                    "percentage": "90%"
+                },
+                {
+                    "name": "Microsoft Azure",
+                    "percentage": "75%"
+                },
+                {
+                    "name": "Machine Learning",
+                    "percentage": "60%"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "role": "Developer",
+            "company": "Tata Consultancy Services - Bangalore, India",
+            "date": "July 2022 – Present",
+            "tasks": [
+                "Developed responsive web applications and reusable UI components using Angular.",
+                "Built and maintained server-side logic with Spring Boot REST APIs.",
+                "Implemented secure authentication and authorization features.",
+                "Designed and optimized database schemas, performing data modelling, normalization, and denormalization.",
+                "Configured and maintained CI/CD pipelines and deployed applications to Microsoft Azure."
+            ]
+        },
+        {
+            "role": "Intern",
+            "company": "Tata Consultancy Services - Bangalore, India",
+            "date": "Feb 2022 – Apr 2022",
+            "tasks": [
+                "Developed a reusable Angular charting library using C3 Charts and Apache ECharts."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "SCOT (Supply Chain Control Tower)",
+            "img": "SCOT",
+            "desc": "A centralized platform that offers real-time monitoring, visibility, and control over supply chain operations.",
+            "tech": [
+                "Angular",
+                "Spring Boot",
+                "Microservices"
+            ],
+            "details": "Contributions: Integrated with ERP, WMS, and TMS systems. Deployed SCOT in production environments."
+        },
+        {
+            "id": 2,
+            "title": "Cont AI",
+            "img": "Cont AI",
+            "desc": "Provides visualization and prioritization of inbound warehouse truck activities with ML delay prediction.",
+            "tech": [
+                "Machine Learning",
+                "OpenLayers",
+                "Angular",
+                "Spring Boot",
+                "Python"
+            ],
+            "details": "Contributions: Developed reusable charting library, Designed real-time data models and analytics structures."
+        },
+        {
+            "id": 3,
+            "title": "Dock Management",
+            "img": "Dock Mgmt",
+            "desc": "AI-driven application for license plate recognition at warehouse entry. Utilizes WebSockets to trigger events.",
+            "tech": [
+                "AI",
+                "WebSockets",
+                "Angular",
+                "Spring Boot"
+            ],
+            "details": "Contributions: Developed APIs for system inter-operability."
+        }
+    ],
+    "education": [
+        {
+            "degree": "B.Tech in Computer Science",
+            "school": "VIT University, Amaravati",
+            "year": "2022 | CGPA: 8.77"
+        },
+        {
+            "degree": "Intermediate",
+            "school": "NRI Junior College",
+            "year": "2018 | 97%"
+        },
+        {
+            "degree": "SSC",
+            "school": "Keshava Reddy Concept School",
+            "year": "2016 | 98%"
+        }
+    ],
+    "certifications": [
+        "NASSCOM certified: Artificial Intelligence Foundations",
+        "Successfully cleared the IP-safe process for SCOT (Patents/Approvals)",
+        "Awarded in Tata Innovista as a prime contributor to Cont AI (\"Cutting Edge Technologies\")"
+    ],
+    "contact": {
+        "email": "vedembhargav@gmail.com",
+        "phone": "+91 8333839884",
+        "linkedin": {
+            "text": "linkedin.com/in/vedem-bhargav-reddy",
+            "url": "https://www.linkedin.com/in/vedem-bhargav-reddy-66547820b/"
+        }
+    }
+}
